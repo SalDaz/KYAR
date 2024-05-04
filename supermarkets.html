@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link href="./css/supermarkets.css" rel="stylesheet" media="all" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+
+    <nav class="navbar">
+      <div class="containerT">
+        <div class="navbar__wrap">
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span> <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <img loading="lazy" src="./images/LOGO 1.svg" class="logoT" id="logo"> </img>
+          <ul class="menu" id="menu">
+            <li><a href="main.html">Домой</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="communication.html">Связь с нами</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="popup" id="popup"></div>
+
+      <section class="banners">
+        <div class="title">Супермаркеты Беларуси</div>
+        <div class="logos">
+          <div class="logo-card" onclick="redirectToPage('evroopt.html')">
+            <img src="./images/evroopt.png" alt="Logo 1" />
+          </div>
+          <div class="logo-card" onclick="redirectToPage('gippo.html')">
+            <img src="./images/gippo.png" alt="Logo 2" />
+          </div>
+          <div class="logo-card" onclick="redirectToPage('korona.html')">
+            <img src="./images/korona.png" alt="Logo 3" />
+          </div>
+          <div class="logo-card" onclick="redirectToPage('santa.html')">
+            <img src="./images/santa.png" alt="Logo 4" />
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="items">
+            <div class="blocks">
+              <div class="block">
+                <div class="block-title">Информация</div>
+                <div class="block-item">О нас</div>
+                <div class="block-item">Партнеры</div>
+                <div class="block-item">Правообладатели</div>
+              </div>
+              <div class="block">
+                <div class="block-title">Помощь</div>
+                <div class="block-item">FAQ</div>
+                <div class="block-item">Контакты</div>
+                <div class="block-item">Оплата и доставка</div>
+              </div>
+              <div class="block">
+                <div class="block-title">Сервисы</div>
+                <div class="block-item">Мобильное приложение</div>
+                <div class="block-item">
+                  <span style="color: rgba(255, 255, 255, 1)">Пользовательское</span>
+                  соглашение
+                </div>
+                <div class="block-item">
+                  Политика
+                  <span style="color: rgba(255, 255, 255, 1)">конфиденциальности</span>
+                </div>
+              </div>
+              <img loading="lazy" src="./images/dr.svg" class="logo" />
+            </div>
+            <div class="social">
+              <img loading="lazy" src="./images/Icon.svg" class="social-image" onclick="redirectToPage('https://www.facebook.com/profile.php?id=100013996158168&locale=ru_RU')"/>
+              <img loading="lazy" src="./images/Icon-1.svg" class="social-image" onclick="redirectToPage('https://vk.com/saldaz485')"/>
+              <img loading="lazy" src="./images/Icon-3.svg" class="social-image" onclick="redirectToPage('https://www.instagram.com/s.a.l.d.a.z/')"/>
+              <img loading="lazy" src="./images/Icon-2.svg" class="social-image" onclick="redirectToPage('https://www.youtube.com/channel/UClftTAtWTvYX0wbbAIcxLow')"/>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="./scripts/script.js"></script>
+  </body>
+</html>

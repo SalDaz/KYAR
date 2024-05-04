@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <link href="./css/santa.css" rel="stylesheet" media="all">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="containerT">
+      <div class="navbar__wrap">
+        <div class="hamb">
+          <div class="hamb__field" id="hamb">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+        <img loading="lazy" src="./images/LOGO 1.svg" class="logoT" id="logo"> </img>
+        <ul class="menu" id="menu">
+          <li><a href="main.html">Домой</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="communication.html">Связь с нами</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="popup" id="popup"></div>
+  
+    <main>
+      <section class="banner">
+        <img class="banner-logo" src="./images/santa.png" alt="Logo" />
+      </section>
+
+      <section class="products">
+        <div class="products-title">Tовары супермаркета</div>
+        <div class="products-container">
+          <div class="product-item sweets">
+            <span>Сладости</span>
+          </div>
+          <div class="product-item alcohol">
+            <span>Алкоголь</span>
+          </div>
+          <div class="product-item sushi">
+            <span>Суши</span>
+          </div>
+          <div class="product-item coffee">
+            <span>Кофе</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="history">
+        <div class="history-title">История успеха</div>
+        <div class="history-content">
+          <div class="history-label">Несколько отметок магазина</div>
+          <ul class="events-list">
+            <li>
+              <span class="event">Открытие</span><span class="year">2006</span>
+            </li>
+            <li>
+              <span class="event">Первые 1000 клиентов</span
+              ><span class="year">2006</span>
+            </li>
+            <li>
+              <span class="event">Открытие второго магазина</span
+              ><span class="year">2007</span>
+            </li>
+            <li>
+              <span class="event">Статус №1 в Беларуси</span
+              ><span class="year">2008</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img
+              src="./images/client-1.png"
+              alt="Михаил"
+              class="testimonial-avatar"
+            />
+            <p class="testimonial-text">Просторный и чистый интерьер, что создает комфортную атмосферу для
+              покупок.</p>
+          <h4 class="testimonial-name">
+            Михаил
+          </h4>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img
+              src="./images/client-3.png"
+              alt="Олег"
+              class="testimonial-avatar"
+            />
+            <p class="testimonial-text">
+              Можно найти продукты различных брендов и выбрать оптимальный
+              вариант.
+            </p>
+          <h4 class="testimonial-name">Олег</h4>
+        </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img
+              src="./images/client-2.png"
+              alt="Мария"
+              class="testimonial-avatar"
+            />
+            <p class="testimonial-text">
+              Ассортимент впечатляет своим разнообразием. Рекомендую всем!<br> </br>
+            </p>
+          <h4 class="testimonial-name">Мария</h4>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="items">
+          <div class="blocks">
+            <div class="block">
+              <div class="block-title">Информация</div>
+              <div class="block-item">О нас</div>
+              <div class="block-item">Партнеры</div>
+              <div class="block-item">Правообладатели</div>
+            </div>
+            <div class="block">
+              <div class="block-title">Помощь</div>
+              <div class="block-item">FAQ</div>
+              <div class="block-item">Контакты</div>
+              <div class="block-item">Оплата и доставка</div>
+            </div>
+            <div class="block">
+              <div class="block-title">Сервисы</div>
+              <div class="block-item">Мобильное приложение</div>
+              <div class="block-item">
+                <span style="color: rgba(255, 255, 255, 1)">Пользовательское</span>
+                соглашение
+              </div>
+              <div class="block-item">
+                Политика
+                <span style="color: rgba(255, 255, 255, 1)">конфиденциальности</span>
+              </div>
+            </div>
+            <img loading="lazy" src="./images/dr.svg" class="logo" />
+          </div>
+          <div class="social">
+            <img loading="lazy" src="./images/Icon.svg" class="social-image" onclick="redirectToPage('https://www.facebook.com/profile.php?id=100013996158168&locale=ru_RU')"/>
+            <img loading="lazy" src="./images/Icon-1.svg" class="social-image" onclick="redirectToPage('https://vk.com/saldaz485')"/>
+            <img loading="lazy" src="./images/Icon-3.svg" class="social-image" onclick="redirectToPage('https://www.instagram.com/s.a.l.d.a.z/')"/>
+            <img loading="lazy" src="./images/Icon-2.svg" class="social-image" onclick="redirectToPage('https://www.youtube.com/channel/UClftTAtWTvYX0wbbAIcxLow')"/>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

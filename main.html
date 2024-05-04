@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <link href="./css/main.css" rel="stylesheet" media="all">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="containerT">
+      <div class="navbar__wrap">
+        <div class="hamb">
+          <div class="hamb__field" id="hamb">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+        <img loading="lazy" src="./images/LOGO 1.svg" class="logoT" id="logo"> </img>
+        <ul class="menu" id="menu">
+          <li><a href="main.html">Домой</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="communication.html">Связь с нами</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="popup" id="popup"></div>
+
+
+  <section class = "introduction">
+    <div class="container">
+      <div class="items">
+        <div class="columns">
+          <div class="column">
+            <div class="title-first-column">Мир Покупок</div>
+          </div>
+          <div class="column-2">
+            <div class="text-second-columns">
+              Вы когда-нибудь задумывались, какой огромный выбор товаров представлен
+              в супермаркетах Беларуси? Здесь вы найдете все: от продуктов питания
+              до бытовой техники
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class = "supermarkets">
+    <div class="container">
+      <div class="items">
+        <div class="title">Крупнейшие супермаркеты</div>
+        <div class="first-text-block">
+          Корона, Белмаркет, Евроопт – эти имена хорошо знакомы каждому жителю
+          Беларуси. Они предлагают широкий ассортимент товаров, приятные цены и
+          отличный сервис.
+        </div>
+        <div class="second-text-block">
+          Любите разнообразие? Тогда вам стоит посетить супермаркеты Гиппо и
+          Евроопт.
+        </div>
+        <div class="third-text-block">
+          Если вы предпочитаете осторожные покупки, то вы обязательно оцените сеть
+          магазинов Белмаркет.
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class = "start">
+    <div class="container">
+      <div class="items">
+        <div class="title">Узнать больше</div>
+        <div class="text">
+          Вы всегда можете узнать больше о ваших любимых магазинах, ассортименте
+          товаров и акциях.
+          <br />
+          Добро пожаловать в мир покупок!
+        </div>
+        <div class="button" onclick="redirectToPage('supermarkets.html')">начать</div>
+      </div>
+    </div>
+  </section>
+
+<footer>
+    <div class="container">
+      <div class="items">
+        <div class="blocks">
+          <div class="block">
+            <div class="block-title">Информация</div>
+            <div class="block-item">О нас</div>
+            <div class="block-item">Партнеры</div>
+            <div class="block-item">Правообладатели</div>
+          </div>
+          <div class="block">
+            <div class="block-title">Помощь</div>
+            <div class="block-item">FAQ</div>
+            <div class="block-item">Контакты</div>
+            <div class="block-item">Оплата и доставка</div>
+          </div>
+          <div class="block">
+            <div class="block-title">Сервисы</div>
+            <div class="block-item">Мобильное приложение</div>
+            <div class="block-item">
+              <span style="color: rgba(255, 255, 255, 1)">Пользовательское</span>
+              соглашение
+            </div>
+            <div class="block-item">
+              Политика
+              <span style="color: rgba(255, 255, 255, 1)">конфиденциальности</span>
+            </div>
+          </div>
+          <img loading="lazy" src="./images/dr.svg" class="logo" />
+        </div>
+        <div class="social">
+          <img loading="lazy" src="./images/Icon.svg" class="social-image" onclick="redirectToPage('https://www.facebook.com/profile.php?id=100013996158168&locale=ru_RU')"/>
+          <img loading="lazy" src="./images/Icon-1.svg" class="social-image" onclick="redirectToPage('https://vk.com/saldaz485')"/>
+          <img loading="lazy" src="./images/Icon-3.svg" class="social-image" onclick="redirectToPage('https://www.instagram.com/s.a.l.d.a.z/')"/>
+          <img loading="lazy" src="./images/Icon-2.svg" class="social-image" onclick="redirectToPage('https://www.youtube.com/channel/UClftTAtWTvYX0wbbAIcxLow')"/>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>
