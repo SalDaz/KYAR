@@ -45,6 +45,7 @@ html {
 }
 
 .logoT {
+  cursor: pointer;
   padding-right: 20px;
   margin-top: 10px;
   text-decoration: none;

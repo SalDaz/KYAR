@@ -9,6 +9,26 @@
     <title>Document</title>
   </head>
   <body>
+    <nav class="navbar">
+      <div class="containerT">
+        <div class="navbar__wrap">
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span> <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <img loading="lazy" src="./images/LOGO 1.svg" class="logoT" id="logo" onclick="redirectToPage('index.html')"> </img>
+          <ul class="menu" id="menu">
+            <li><a href="supermarkets.html">Супермаркеты</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="communication.html">Связь с нами</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="popup" id="popup"></div>
+
     <div class="container">
       <div class="content">
         <div class="left-side">
@@ -80,6 +100,7 @@
       src="https://kit.fontawesome.com/fce9a50d02.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/script.js"></script>
     <script src="./scripts/app.js"></script>
   </body>
 </html>
