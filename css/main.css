@@ -252,6 +252,7 @@ html {
 }
 @media (max-width: 991px) {
   .supermarkets .container {
+    align-items: center;
     padding-bottom: 60px;
     padding: 62px 5px 0px 5px;
   }
@@ -279,7 +280,8 @@ html {
     max-width: 100%;
     font: 400 40px Inter, sans-serif;
     margin-left: 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
+    align-self: center;
   }
 }
 .supermarkets .first-text-block {
@@ -451,6 +453,7 @@ footer .block-title {
   font-family: Inter, sans-serif;
 }
 footer .block-item {
+  cursor: pointer;
   font-family: Inter, sans-serif;
   margin-top: 24px;
 }
@@ -485,13 +488,13 @@ footer .social {
   }
 }
 footer .social-image {
+  cursor: pointer;
   aspect-ratio: 1;
   -o-object-fit: auto;
      object-fit: auto;
   -o-object-position: center;
      object-position: center;
   width: 30px;
-  cursor: pointer;
 }
 @media (max-width: 991px) {
   footer .social-image {

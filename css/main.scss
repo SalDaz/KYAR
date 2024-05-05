@@ -283,6 +283,7 @@ html {
 
   @media (max-width: 991px) {
     .container {
+      align-items: center;
       padding-bottom: 60px;
       padding: 62px 5px 0px 5px;
     }
@@ -312,7 +313,8 @@ html {
       max-width: 100%;
       font: 400 40px Inter, sans-serif;
       margin-left: 0px;
-      padding: 0px 0px 0px 0px;
+      padding: 0;
+      align-self: center;
     }
   }
 
@@ -509,6 +511,7 @@ footer {
    }
 
    &-item {
+    cursor: pointer;
     font-family: Inter, sans-serif;
     margin-top: 24px;
    }
@@ -543,11 +546,11 @@ footer {
   }
 
   .social-image {
+    cursor: pointer;
     aspect-ratio: 1;
     object-fit: auto;
     object-position: center;
     width: 30px;
-    cursor: pointer;
 
     @media (max-width: 991px) {
       margin-bottom: 40px;
