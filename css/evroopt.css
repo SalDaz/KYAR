@@ -214,18 +214,18 @@ html {
   width: 100%;
   background: transparent;
   color: white;
+  padding-bottom: 20px;
   text-align: center;
-  padding: 20px;
   text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
-  font: 80px JetBrains Mono, sans-serif;
+  font: 50px JetBrains Mono, sans-serif;
   transition: 0.8s;
   opacity: 0;
 }
 @media (max-width: 991px) {
   .products-container .product-item span {
-    font: 400 40px Inter, sans-serif;
+    font: 400 25px Inter, sans-serif;
     position: relative;
-    padding: 0px;
+    padding-bottom: 0px;
     pointer-events: none;
     opacity: 1;
   }
