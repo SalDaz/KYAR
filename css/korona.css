@@ -223,7 +223,7 @@ html {
 }
 @media (max-width: 991px) {
   .products-container .product-item span {
-    font: 400 25px Inter, sans-serif;
+    font: 400 23px Inter, sans-serif;
     position: relative;
     padding-bottom: 0px;
     pointer-events: none;
